@@ -1,0 +1,20 @@
+[
+  {
+    "target": "Items",
+    "name": "ItemGroups",
+    "body": {
+      "SqlCode": "sql_wItemGroups",
+      "SqlName": "itemGrpups",
+      "SqlText": "SELECT ItmsGrpCod, ItmsGrpNam FROM OITB"
+    }
+  },
+  {
+    "target": "Items",
+    "name": "Uoms",
+    "body": {
+      "SqlCode": "sql_wUoms",
+      "SqlName": "uoms",
+      "SqlText": "SELECT UomEntry, UomCode, UomName FROM OUOM"
+    }
+  }
+]
